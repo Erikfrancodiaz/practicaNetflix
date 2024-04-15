@@ -1,0 +1,47 @@
+:root {
+    --texto-blanco: white;
+    --rojo: red;
+    --fondo-negro: black;
+}
+
+.texto_blanco {
+    color: var(--texto-blanco);
+}
+
+.main {
+    text-align: center;
+    background-image: linear-gradient(to right top, #0000008a, #0000008a), url(../img/AR-es-20240408-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_titulo {
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    font-size: 3em;
+}
+
+.main_subtitulo {
+    text-align: center;
+}
+
+.busqueda {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input_comenzar {
+    opacity: 0.8;
+}
+
+.button_comenzar {
+    background-color: var(--rojo);
+}
