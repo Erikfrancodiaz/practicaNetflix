@@ -1,6 +1,6 @@
 :root {
-    --texto-blanco: white;
-    --rojo: red;
+    --texto-blanco: rgb(255, 255, 255);
+    --rojo: rgb(229, 9, 20);
     --fondo-negro: black;
 }
 
@@ -39,9 +39,16 @@
 }
 
 .input_comenzar {
-    opacity: 0.8;
+    opacity: 0.1;
+
 }
 
 .button_comenzar {
     background-color: var(--rojo);
+    color: var(--texto-blanco);
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2vh;
+
 }
