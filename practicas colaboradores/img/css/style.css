@@ -1,0 +1,39 @@
+.header{
+width: 100%;
+height: 15vh;
+background-color: aquamarine;
+border: 1px solid red;
+display: flex;
+
+
+
+}
+.header_logo{
+    width: 150px;
+    border: 1px solid blue;
+    
+    justify-content: flex-start;
+
+
+
+}
+.img_netflix{
+    width: 150px;
+    
+}
+
+.header_menu{
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+    
+}
+#header_menu_login{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    padding: 1vh;
+    width: auto;
+    
+}
